@@ -1,4 +1,5 @@
-# ⚽ Football Team Manager
+# ⚽ Football Team Manager 
+# FC AITU
 
 Python project for managing a football team (players, lineup, statistics)
 
@@ -16,16 +17,16 @@ Python project for managing a football team (players, lineup, statistics)
 - File Handling
 - GitHub
 
-## 👨‍💻 Team Members
-- Yerassyl B
-- Mansur K
+## Team Members
+ Yerassyl B
+ Mansur K
 
 ## development Timeline
-- Week 1 — Player class
-- Week 2 — Team class
-- Week 3 — File saving system
-- Week 4 — Statistics and decorators
-- Week 5 — Final improvements and presentation
+Week 1 — Player class
+Week 2 — Team class
+Week 3 — File saving system
+Week 4 — Statistics and decorators
+Week 5 — Final improvements and presentation
 
 ## Our Goal
 The goal of this project is to create a simple football management system using Python.
