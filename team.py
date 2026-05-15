@@ -22,3 +22,5 @@ class Team:
             for line in file:
                 name, position, rating = line.strip().split(",")
                 print(f"{name} - {position} - {rating}")
+
+
