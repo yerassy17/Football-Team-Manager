@@ -15,6 +15,11 @@ def main():
 
     team.show_players()
 
+    team.save_to_file()
+
+    print("\nSaved players:")
+    team.load_from_file()
+
 
 if __name__ == "__main__":
     main()
