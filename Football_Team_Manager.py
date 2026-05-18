@@ -20,6 +20,8 @@ def main():
     print("\nSaved players:")
     team.load_from_file()
 
+    team.average_rating()
+
 
 if __name__ == "__main__":
     main()
