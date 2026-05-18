@@ -1,3 +1,6 @@
+from utils import team_info
+
+
 class Team:
     def __init__(self, name):
         self.name = name
@@ -23,4 +26,13 @@ class Team:
                 name, position, rating = line.strip().split(",")
                 print(f"{name} - {position} - {rating}")
 
+    @team_info
+    def average_rating(self):
+        total = 0
 
+        for player in self.players:
+            total += player.rating
+
+        average = total / len(self.players)
+
+        print("Average rating:", average)
