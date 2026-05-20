@@ -36,3 +36,20 @@ class Team:
         average = total / len(self.players)
 
         print("Average rating:", average)
+
+    def remove_player(self, player_name):
+        for player in self.players:
+            if player.name == player_name:
+                self.players.remove(player)
+                print(player_name, "removed from team")
+                return
+
+    def team_statistics(self):
+        stats = {
+            "total_players": len(self.players),
+            "team_name": self.name
+        }
+
+        print("\nStatistics:")
+        for key, value in stats.items():
+            print(key, ":", value)
