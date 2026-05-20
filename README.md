@@ -1,7 +1,7 @@
 # ⚽ Football Team Manager 
 # FC AITU
 
-Python project for managing a football team (players, lineup, statistics)
+A minimalist and powerful command-line soccer team manager developed in Python. The project fully automates player accounting, starting lineup selection, match statistics tracking, and data storage.
 
 ## Features
 - Add players
@@ -18,15 +18,18 @@ Python project for managing a football team (players, lineup, statistics)
 - GitHub
 
 ## Team Members
- Yerassyl B
- Mansur K
+**Yerassyl Bakhtybay** &
+**Mansur Kassym**
 
-## development Timeline
-Week 1 — Player class
-Week 2 — Team class
-Week 3 — File saving system
-Week 4 — Statistics and decorators
-Week 5 — Final improvements and presentation
+### Development Timeline
+
+| Stage | Title | Description |
+| :--- | :--- | :--- |
+| **Week 1** | Entity Design | Developing the Player base class, encapsulating fields, and implementing basic player data validation. |
+| **Week 2** | Team Logic | Creating the Team class. Implementing methods for adding, deleting, and finding players. |
+| **Week 3** | Data Persistence | Integrating the File Handling module. Writing functions for saving and loading team state. |
+| **Week 4** | Analytics and Decorators | Implementing a statistics system. Writing decorators for type checking and logging. |
+| **Week 5** | Polishing and Finalization | Refactoring code according to PEP 8, fixing bugs, final CLI testing, and preparing for the presentation. |
 
 ## Our Goal
-The goal of this project is to create a simple football management system using Python.
+Create a flexible, extensible, and intuitive command-line tool for managing a football club, while practicing class relationship design, file system management, and clean Python code principles.
