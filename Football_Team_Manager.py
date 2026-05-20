@@ -1,9 +1,10 @@
 from player import Player
 from team import Team
+from coach import Coach
 
 
 def main():
-    p1 = Player("Messi", "FW", 90)
+    p1 = Player("Messi", "RW", 90)
     p2 = Player("Ronaldo", "ST", 91)
     p3 = Player("Mbappe", "LW", 89)
     p4 = Player("Modric", "CM", 88)
@@ -15,7 +16,7 @@ def main():
     p10 = Player("Davies", "LB", 84)
     p11 = Player("Courtois", "GK", 90)
 
-    team = Team("AITU FC")
+    team = Team("Dream FC")
 
     team.add_player(p1)
     team.add_player(p2)
@@ -29,6 +30,9 @@ def main():
     team.add_player(p10)
     team.add_player(p11)
 
+    coach = Coach("Pep Guardiola", "4-3-3")
+    coach.show_tactic()
+
     team.show_players()
 
     team.save_to_file()
@@ -38,11 +42,13 @@ def main():
 
     team.average_rating()
 
-    team.remove_player("Mbappe")
+    team.remove_player("Rudiger")
 
     team.show_players()
 
     team.team_statistics()
+
+    team.show_results()
 
 
 if __name__ == "__main__":
