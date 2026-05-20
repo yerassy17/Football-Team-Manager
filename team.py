@@ -53,3 +53,14 @@ class Team:
         print("\nStatistics:")
         for key, value in stats.items():
             print(key, ":", value)
+
+    def show_results(self):
+        results = [
+            "AITU FC 2-1 City",
+            "AITU FC 1-1 United",
+            "AITU FC 3-0 Milan"
+        ]
+
+        print("\nRecent Matches:")
+        for match in results:
+            print(match)
